@@ -1,12 +1,12 @@
 {
   "name": "polymerhandson",
   "version": "1.0.0",
-  "description": "",
+  "description": "handson",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "MuneTamu",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -16,5 +16,13 @@
     "load-grunt-configs": "^0.4.3",
     "load-grunt-tasks": "^3.2.0",
     "time-grunt": "^1.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuneTamu/polymerhandson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuneTamu/polymerhandson/issues"
+  },
+  "homepage": "https://github.com/MuneTamu/polymerhandson#readme"
 }

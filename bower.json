@@ -1,0 +1,25 @@
+{
+  "name": "polymerhandson",
+  "version": "0.0.0",
+  "homepage": "https://github.com/MuneTamu/polymerhandson",
+  "authors": [
+    "MuneTamu"
+  ],
+  "description": "handson",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.0.8"
+  },
+  "overrides": {
+    "webcomponentsjs": {
+      "main": "webcomponents-lite.js"
+    }
+  }
+}
