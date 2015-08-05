@@ -1,0 +1,24 @@
+<dom-module id="my-styled-namecard">
+  <style>
+    span {
+      font-weight: bold;
+    }
+  </style>
+
+  <template>
+    <div>
+      Hi!! my name is <span>{{myName}}</span>
+    </div>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'my-styled-namecard',
+      properties: {
+        myName: {
+          type: String
+        }
+      }
+    });
+  </script>
+</dom-module>
